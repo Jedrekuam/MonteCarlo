@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <script type="text/javascript" src="montecarlo.js"></script>
+    <meta charset="utf-8"/>
+    <title>Wizualizacja metody Monte Carlo</title>
+    <link rel="stylesheet" type="text/css" href="zott.css" />
+    <h1 id='header'> Przybliżanie liczby Pi</h1>
+  </head>
+
+
+  <body id="all" onload=montecarlo() >
+    <footer id="dane" >
+      Uderzone: <span id="uderzenia">0</span><br />
+      Spudłowane: <span id="pudlo">0</span><br />
+      Wartość Pi: <span id="pi">0</span><br />
+    </footer>
+
+    <canvas id="rzuty" class='ogolna'  width="600" height="600"></canvas>
+    <canvas id="kolo" class='ogolna' width="600" height="600"></canvas>
+
+  </body>
+</html>

@@ -1,0 +1,43 @@
+#all {
+  background-color:#ccffff;
+//  background-image: url("mona.jpg");
+//  background-repeat: no-repeat;
+  position: fixed;
+  display: block;
+}
+#dane {
+  background-image: url(mona.jpg);
+  border-collapse: separate;
+  border-width:  0.25rem;
+  border-style: groove;
+  width: 60rem;
+  height: 38rem;
+  right: 0;
+  position:fixed;
+  top: 20;
+  font-size: 3rem;
+  background-color: rgba(224, 224, 224, 0.80);
+
+}
+#but {
+  border-style: dashed;
+  border-width: medium;
+}
+#rzuty {
+    z-index: -2;
+}
+
+#kolo {
+
+    z-index: -1;
+}
+.ogolna {
+  position: absolute;
+}
+#header {
+  text-align: center;
+  margin-left: 50%;
+  font-size: 6rem;
+  font-style: italic;
+  font: arial;
+}
